@@ -45,5 +45,167 @@ span {
   color: #A75087;
 }
 
-/* **********************NAVBAR-END************************** */
 
+/* ******************************SERVİCES********************************** */
+/*****************MİDBAR***************** */
+#midBar {
+  width:100%;
+  height:100px;
+  background-color:#35424A;
+  display:flex;
+  flex-direction:row;
+  justify-content: space-between;
+  padding:30px;
+}
+
+.secLeft {
+  color:white;
+}
+
+#subscribeİnp {
+  width:15rem;
+  height:2.5rem;
+}
+
+#subscribeBut {
+  text-decoration: none;
+  color: white;
+  background-color: #E8491D;
+  border: 10px solid #E8491D;
+}
+
+/*****************MİDBAR-END***************** */
+
+
+main {
+  display:flex;
+  justify-content:space-between;
+  padding: 20px 20px 0px 30px;
+}
+
+.mnLeft {
+  flex:0.6;
+  display: flex;
+  flex-direction: column;
+} 
+
+.item {
+  border:1px solid #CCCCCC;
+  background-color:#E6E6E6;
+  padding: 40px 20px;
+  margin-bottom: 10px;;
+}
+
+.mnRight {
+  flex:0.3;
+  justify-content: flex-end;
+}
+
+#form {
+  border:1px solid black;
+  padding: 25px 40px 10px 10px;
+  background-color:#35424A;
+  color: white;
+}
+
+#form .formText {
+  width:100%;
+  height: 30px;
+}
+
+textarea {
+  width: 100%;
+}
+
+#submitBut {
+  background-color:#E8491D;
+  padding:10px 15px;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+/* *******************************HOME*************************** */
+
+#infoBar {
+  width:100%;
+  height:36.7rem;
+  display: flex;
+  justify-content:space-around;
+  padding:20px;
+  overflow: auto;
+}
+
+#infoBar img {
+  width: 70px;
+}
+
+.inf {
+  text-align: center;
+}
+
+.inf img {
+  cursor: pointer;
+}
+
+/* **************************CSS************************* */
+.cont {
+  display: flex;
+  justify-content:center;
+  align-items:center;
+}
+.container {
+  display: flex;
+  flex-direction:column;
+  align-items: center;
+  padding:98px 150px;
+
+}
+
+.cont-logo {
+  width:300px;
+  margin-bottom: 30px;
+}
+
+/* ********************************ABOUT********************************* */
+
+.main {
+  width:100%;
+  height:43rem; 
+  padding: 15px 20px 0px 40px;  
+  display:flex;
+  flex-direction:row;
+}
+
+#mainLeft {
+  display: flex;
+  flex-direction: column;
+  min-width: 60%;
+}
+
+.mainRight {
+  margin-left:50px;
+  padding-bottom:20px;
+}
+
+#rightText,
+.mainBottom {
+  background-color:#35424A;
+  color: white;
+  padding: 20px;
+}
+
+/* *************************FOOTER**************************** */
+footer {
+  border: 1px solid black;
+  width: 100%;
+  height:100%;
+  text-align: center;
+  padding: 32.5px 0px;
+  background-color: #35424A;
+  color: white;
+}
+
+footer img {
+  width:200px;
+}
