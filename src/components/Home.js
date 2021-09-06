@@ -2,14 +2,15 @@ import React from 'react'
 import HtmlLogo from "../assets/logo_html.png";
 import CssLogo from "../assets/logo_css.png";
 import BrushLogo from "../assets/logo_brush.png";
-import Css from "./Css";
-import Html from "./Html";
-import Design from "./Design";
+import { BrowserRouter as Rounter, Link } from "react-router-dom";
+import App from "../App";
+
 
 export default function Home() {
     return (
+        <Rounter>
         <div>
-            {/* <section id="midBar">
+            <section id="midBar">
                 <div className="sec secLeft">
                     <h1>Subscribe To Our Newsletter</h1>
                 </div>
@@ -17,20 +18,20 @@ export default function Home() {
                 </div>
             </section>
             <section id="infoBar">
-                <div class="inf infLeft">
-                    <img src={HtmlLogo} alt="HTML" /><br /><br /><h4>HTML5 Markup</h4><br /><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque facere repellat cupiditate ducimus placeat nostrum?</p>
+                <div className="inf infLeft">
+                    <Link to="/html">
+                    <img src={HtmlLogo} alt="HTML" /></Link><br /><br /><h4>HTML5 Markup</h4><br /><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque facere repellat cupiditate ducimus placeat nostrum?</p>
                 </div>
-                <div class="inf infCenter">
-                    <img src={CssLogo} alt="CSS" /><br /><br /><h4>CSS Styling</h4><br /><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque facere repellat cupiditate ducimus placeat nostrum?</p>
+                <div className="inf infCenter">
+                <Link to="/css">
+                    <img src={CssLogo} alt="CSS" /></Link><br /><br /><h4>CSS Styling</h4><br /><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque facere repellat cupiditate ducimus placeat nostrum?</p>
                 </div>
-                <div class="inf infRight">
-                    <img src={BrushLogo} alt="Brush" /><br /><br /><h4>Graphing Desing</h4><br/><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque facere repellat cupiditate ducimus placeat nostrum?</p>
+                <div className="inf infRight">
+                <Link to="/design">
+                    <img src={BrushLogo} alt="Brush" /></Link><br /><br /><h4>Graphing Desing</h4><br/><p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Cumque facere repellat cupiditate ducimus placeat nostrum?</p>
                 </div>
-            </section> */}
-            {/* <Css/> */}
-            {/* <Html/> */}
-            <Design/>
-            
+            </section>        
         </div>
+        </Rounter>
     )
 }

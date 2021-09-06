@@ -4,6 +4,10 @@ import Footer from "./components/Footer";
 import Services from "./components/Services";
 import Home from "./components/Home";
 import About from "./components/About";
+import Css from "./components/Css";
+import Html from "./components/Html";
+import Design from "./components/Design";
+
 
 function App() {
   return (
@@ -33,6 +37,9 @@ function App() {
           <Route path="/about" component={About} />
           <Route path="/services" component={Services} />
           <Route exact path="/" component={Home} />
+          <Route path="/css" component={Css} />
+          <Route path="/html" component={Html} />
+          <Route path="/design" component={Design} />
         </Switch>
         <Footer />
       </div>
