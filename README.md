@@ -1,6 +1,6 @@
 ![clarusway-web-page-with-router](https://user-images.githubusercontent.com/81647285/132196320-741351ab-62f8-49c5-a85b-d5284b0e0141.gif)
 
-# Getting Started with Create React App
+# Getting Started with Create React Ap
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
